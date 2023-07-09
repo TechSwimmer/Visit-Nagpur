@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: orange;
+    text-shadow: 1px 1px ;
+}
+.hero{
+    margin: 0;
+    padding: 0;
+    background-image: url("/images/090a59f2ad3733198422549b499dea7c.jpg");
+    height: 470px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.heading{
+    margin: 0;
+    padding-top: 220px;
+    letter-spacing: 10px;
+    font-size: 3rem;
+    color: white;
+}
+.head-info{
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.activities{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.act-img{
+    height: 250px;
+    width: 300px;
+    border-radius: 50%;
+}
+.deekshabhumi, .ambazari, .swaminarayan{
+    margin: 10px;
+    padding: 50px;
+} 
+
+.activities-div{
+    background-color: chocolate;
+    margin: 0;
+}
+.act-head{
+    padding: 8px;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+.card{
+    display: flex;
+    width: 600px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-bottom: 30px;
+    border-bottom: 10px solid purple;
+    
+}
+.guide-img{
+    height: 280px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 60px;
+}
+.guide-info{
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+.guide-words{
+    font-style: italic;
+}
+.card:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.activities-div:hover{
+    background-color: black;
+    color:aliceblue;
+}
